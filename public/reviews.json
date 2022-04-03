@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "./ReviewersImg/Daniel Ethan.jpg",
+    "name": "Daniel Ethan",
+    "comment": "I bought it 5months ago and it really really leveled up me from my ex camera i had . I felt that profrsional feeling of being a profesional photographer.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "image": "./ReviewersImg/George Aaron.jpg",
+    "name": "George Aaron",
+    "comment": "I've owned this camera for about six months now. I primarily use it to film Youtube video. It works well and no problem in manual mode.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "image": "./ReviewersImg/Jason Kiefer.jpg",
+    "name": "Jason Kiefer",
+    "comment": "I saved up for this camera for a while, after owning a Canon EOS 1100D and I never regretted it! Exceptional quality and so easy to create amazing looking photos.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "image": "./ReviewersImg/Jaxon Jake.jpg",
+    "name": "Jaxon Jake",
+    "comment": "I use this camera for shooting videos . This camera is very simple yet effective . And i enjoy using this camera . I am thinking of buying one for my self .",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "image": "./ReviewersImg/Jayden Leo.jpg",
+    "name": "Jayden Leo",
+    "comment": "I just love this camera I have improved my images immensely and am having so much fun .",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "image": "./ReviewersImg/Joshua Oscar.jpg",
+    "name": "Joshua Oscar",
+    "comment": "I bought this camera and are satisfied with the pictures but I don't know what to do when they say that the card's write protect switch is set to lock can you help me?",
+    "rating": 3
+  }
+]
