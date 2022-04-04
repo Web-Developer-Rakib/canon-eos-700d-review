@@ -1,8 +1,11 @@
 import React from "react";
+import { useLoadData } from "../../Hooks/useLoadData";
 import HeroImg from "../Images/eos-700-d.jpg";
 import "./Home.css";
 
 const Home = () => {
+  const [reviews] = useLoadData();
+  console.log(reviews);
   return (
     <div>
       <section className="hero-section">
