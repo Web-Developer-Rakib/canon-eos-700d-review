@@ -5,7 +5,7 @@ import HomePageCard from "../HomePageCard/HomePageCard";
 import "./Home.css";
 
 const Home = () => {
-  const [reviews] = useLoadData();
+  const [reviews] = useLoadData([]);
   const reviewSlice = reviews.slice(0, 3);
   return (
     <div>
@@ -17,7 +17,7 @@ const Home = () => {
           </h1>
           <p>
             Step into DSLR photography and let your creativity grow. Produce
-            superb photos and video with an 18-megapixel sensor and enjoy
+            super photos and video with an 18-megapixel sensor and enjoy
             shooting with an easy to use Vari-angle Clear View LCD II Touch
             screen.
           </p>

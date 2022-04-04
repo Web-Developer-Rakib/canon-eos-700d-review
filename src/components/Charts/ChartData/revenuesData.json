@@ -1,0 +1,32 @@
+[
+  {
+    "Month": "Mar",
+    "Investment": 100000,
+    "Revenue": 104010
+  },
+  {
+    "Month": "Apr",
+    "Investment": 200000,
+    "Revenue": 245000
+  },
+  {
+    "Month": "May",
+    "Investment": 500000,
+    "Revenue": 670100
+  },
+  {
+    "Month": "Jun",
+    "Investment": 500000,
+    "Revenue": 604050
+  },
+  {
+    "Month": "Jul",
+    "Investment": 600000,
+    "Revenue": 709000
+  },
+  {
+    "Month": "Aug",
+    "Investment": 700000,
+    "Revenue": 810000
+  }
+]

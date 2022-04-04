@@ -1,0 +1,15 @@
+.dashboard {
+  padding: 20px;
+  margin-top: 80px;
+}
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.chart-title {
+  margin-bottom: 30px;
+}
+.chart-title-color {
+  color: rgb(236, 71, 104);
+}
