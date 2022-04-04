@@ -21,3 +21,6 @@ nav {
   font-weight: 700;
   color: black;
 }
+.active {
+  border-bottom: 3px solid crimson;
+}

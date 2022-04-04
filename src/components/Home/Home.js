@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { useLoadData } from "../../Hooks/useLoadData";
 import HeroImg from "../../Images/eos-700-d.jpg";
 import HomePageCard from "../HomePageCard/HomePageCard";
@@ -7,6 +8,14 @@ import "./Home.css";
 const Home = () => {
   const [reviews] = useLoadData([]);
   const reviewSlice = reviews.slice(0, 3);
+  const navigate = useNavigate();
+
+  const seeMoreReviews = () => {
+    navigate("/reviews");
+  };
+  const exploreMore = () => {
+    navigate("/about");
+  };
   return (
     <div>
       <section className="hero-section">
@@ -21,7 +30,9 @@ const Home = () => {
             shooting with an easy to use Vari-angle Clear View LCD II Touch
             screen.
           </p>
-          <button className="See-more-btn">SEE MORE</button>
+          <button className="See-more-btn" onClick={exploreMore}>
+            EXPLORE MORE
+          </button>
         </div>
         <div className="hero-img">
           <img src={HeroImg} alt="" />
@@ -34,7 +45,9 @@ const Home = () => {
             <HomePageCard review={review}></HomePageCard>
           ))}
         </div>
-        <button className="See-more-btn review-btn">SEE MORE REVIEWS</button>
+        <button className="See-more-btn review-btn" onClick={seeMoreReviews}>
+          SEE MORE REVIEWS
+        </button>
       </section>
     </div>
   );
