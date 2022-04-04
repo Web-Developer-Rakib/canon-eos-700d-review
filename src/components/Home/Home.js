@@ -29,13 +29,13 @@ const Home = () => {
       <section className="review-section">
         <h1 className="section-title">Reviews</h1>
         <div className="card-section">
-          <div className="card">
-            <div className="card-top">
-              <div className="card-left">
+          <div className="home-card">
+            <div className="home-card-top">
+              <div className="home-card-left">
                 <h3>Name</h3>
                 <h4 className="rating">5 Star</h4>
               </div>
-              <div className="card-right">
+              <div className="home-card-right">
                 <img src={HeroImg} alt="" />
               </div>
             </div>

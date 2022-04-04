@@ -40,7 +40,7 @@
   display: flex;
   justify-content: space-evenly;
 }
-.card {
+.home-card {
   height: 300px;
   width: 250px;
   border: 2px solid crimson;
@@ -50,12 +50,12 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.card-top {
+.home-card-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.card-right img {
+.home-card-right img {
   height: 60px;
   width: 60px;
   border-radius: 50%;

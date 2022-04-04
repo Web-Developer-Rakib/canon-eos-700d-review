@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -9,11 +10,21 @@ const Navbar = () => {
           <span className="logo">Canon EOS 700D</span> Review
         </h1>
         <ul>
-          <li>HOME</li>
-          <li>REVIEWS</li>
-          <li>DASHBORD</li>
-          <li>BLOGS</li>
-          <li>ABOUT</li>
+          <Link className="link" to="/">
+            HOME
+          </Link>
+          <Link className="link" to="/reviews">
+            REVIEWS
+          </Link>
+          <Link className="link" to="/dashboard">
+            DASHBORD
+          </Link>
+          <Link className="link" to="/blogs">
+            BLOGS
+          </Link>
+          <Link className="link" to="/about">
+            ABOUT
+          </Link>
         </ul>
       </nav>
     </div>
