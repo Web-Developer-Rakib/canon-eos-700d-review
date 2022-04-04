@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about-section">
       <h1>
-        More about <span className="title-color">Canon EOS 700D</span>
+        Explore more about <span className="title-color">Canon EOS 700D</span>
       </h1>
       <div className="details">
         <div className="overview">
