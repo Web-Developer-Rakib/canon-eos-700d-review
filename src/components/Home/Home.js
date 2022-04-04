@@ -1,11 +1,12 @@
 import React from "react";
 import { useLoadData } from "../../Hooks/useLoadData";
-import HeroImg from "../Images/eos-700-d.jpg";
+import HeroImg from "../../Images/eos-700-d.jpg";
+import HomePageCard from "../HomePageCard/HomePageCard";
 import "./Home.css";
 
 const Home = () => {
   const [reviews] = useLoadData();
-  console.log(reviews);
+  const reviewSlice = reviews.slice(0, 3);
   return (
     <div>
       <section className="hero-section">
@@ -29,23 +30,9 @@ const Home = () => {
       <section className="review-section">
         <h1 className="section-title">Reviews</h1>
         <div className="card-section">
-          <div className="home-card">
-            <div className="home-card-top">
-              <div className="home-card-left">
-                <h3>Name</h3>
-                <h4 className="rating">5 Star</h4>
-              </div>
-              <div className="home-card-right">
-                <img src={HeroImg} alt="" />
-              </div>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Excepturi, laborum. Dignissimos perspiciatis ad modi blanditiis
-              perferendis voluptate placeat beatae a, laudantium nesciunt nemo
-              tempora deleniti architecto minus. Voluptas, veniam autem!
-            </p>
-          </div>
+          {reviewSlice.map((review) => (
+            <HomePageCard review={review}></HomePageCard>
+          ))}
         </div>
         <button className="See-more-btn review-btn">SEE MORE REVIEWS</button>
       </section>

@@ -1,25 +1,17 @@
 import React from "react";
-import Reviewer from "../Images/eos-700-d.jpg";
+import { useLoadData } from "../../Hooks/useLoadData";
+import ReviewPageCard from "../ReviewPageCard/ReviewPageCard";
 import "./Reviews.css";
 
 const Reviews = () => {
+  const [reviews] = useLoadData();
   return (
     <section className="reviews-section">
       <h1>See all reviews</h1>
       <div className="review-cards">
-        <div className="card">
-          <div className="card-top">
-            <img src={Reviewer} alt="" />
-            <h3>Name</h3>
-          </div>
-          <h4>Ratings</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut odit
-            ratione saepe dignissimos nobis odio corporis, delectus natus
-            provident dolor! Maiores, amet nam sunt dolorem qui eius aliquam
-            earum ab!
-          </p>
-        </div>
+        {reviews.map((review) => (
+          <ReviewPageCard review={review}></ReviewPageCard>
+        ))}
       </div>
     </section>
   );
