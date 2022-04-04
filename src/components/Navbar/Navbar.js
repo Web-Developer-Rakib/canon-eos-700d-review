@@ -17,7 +17,7 @@ const Navbar = () => {
             REVIEWS
           </Link>
           <Link className="link" to="/dashboard">
-            DASHBORD
+            DASHBOARD
           </Link>
           <Link className="link" to="/blogs">
             BLOGS

@@ -1,0 +1,25 @@
+.title-color {
+  color: crimson;
+}
+.about-section {
+  margin-top: 80px;
+  padding: 20px;
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid crimson;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+.overview {
+  width: 50%;
+  padding-top: 10px;
+}
+.main-features {
+  padding-top: 10px;
+}
+.details-title {
+  border-bottom: 2px solid crimson;
+  display: inline;
+}
