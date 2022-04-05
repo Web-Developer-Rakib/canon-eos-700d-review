@@ -14,7 +14,7 @@ const Revenues = () => {
     <div>
       <BarChart
         width={500}
-        height={300}
+        height={400}
         data={revenuesData}
         margin={{
           top: 20,

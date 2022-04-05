@@ -45,9 +45,11 @@ const Home = () => {
             <HomePageCard review={review}></HomePageCard>
           ))}
         </div>
-        <button className="See-more-btn review-btn" onClick={seeMoreReviews}>
-          SEE MORE REVIEWS
-        </button>
+        <div className="review-btn">
+          <button className="See-more-btn" onClick={seeMoreReviews}>
+            SEE MORE REVIEWS
+          </button>
+        </div>
       </section>
     </div>
   );

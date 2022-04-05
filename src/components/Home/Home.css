@@ -3,16 +3,18 @@
 }
 .hero-section {
   display: flex;
+  justify-content: space-evenly;
   padding: 20px;
   margin-top: 80px;
+  width: 100%;
+  flex-wrap: wrap-reverse;
 }
 .hero-txt {
-  width: 50%;
+  width: 500px;
 }
 .hero-img {
   display: flex;
   justify-content: center;
-  width: 50%;
 }
 .See-more-btn {
   border: none;
@@ -38,9 +40,12 @@
 }
 .card-section {
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .review-btn {
-  margin-left: 45%;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

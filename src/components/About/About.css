@@ -11,6 +11,11 @@
   border: 2px solid crimson;
   padding-bottom: 10px;
   border-radius: 25px;
+  width: 100%;
+  flex-wrap: wrap;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .overview {
   width: 50%;
@@ -22,4 +27,6 @@
 .details-title {
   border-bottom: 2px solid crimson;
   display: inline;
+}
+@media only screen and (max-width: 600px) {
 }
