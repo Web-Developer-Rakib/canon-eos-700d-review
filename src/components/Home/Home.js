@@ -17,7 +17,7 @@ const Home = () => {
     navigate("/about");
   };
   return (
-    <div>
+    <div className="home">
       <section className="hero-section">
         <div className="hero-txt">
           <h1>

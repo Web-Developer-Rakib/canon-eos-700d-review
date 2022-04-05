@@ -4,6 +4,7 @@
 .about-section {
   margin-top: 80px;
   padding: 20px;
+  height: 60vh;
 }
 .details {
   display: flex;

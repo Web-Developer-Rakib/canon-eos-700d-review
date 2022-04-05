@@ -39,6 +39,7 @@ const Blogs = () => {
         </h3>
         <p>
           <b>Answer: </b>
+          <br /> <br />
           <i>
             <u>Inline element:</u>
           </i>{" "}
